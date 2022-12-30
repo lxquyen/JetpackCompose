@@ -28,7 +28,7 @@ import kotlin.math.tan
  */
 @Composable
 fun CustomBackground(
-    modifier: Modifier,
+    modifier: Modifier = Modifier,
     content: @Composable () -> Unit
 ) {
     val color = LocalBackgroundTheme.current.color
